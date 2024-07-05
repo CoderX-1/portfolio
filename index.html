@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;1,600&family=Poppins:wght@500;600&family=Preahvihear&display=swap"
+    rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="container mx-auto p-4 sm:p-0">
+    <header>
+      <nav id="navbar" class="flex px-2 items-center h-24 justify-between container mx-auto plus-jakarta-sans">
+        <div>
+          <img class="w-auto" src="img/Logo.png" alt="Akkaas Logo">
+        </div>
+        <div class="sm:flex hidden">
+          <div id="dropdownMenu" class="flex items-center gap-6">
+            <a href="#Home" class="px-4 py-2 text-white hover:text-gray-400">Home</a>
+            <a href="#About" class="px-4 py-2 text-white hover:text-gray-400">About</a>
+            <a href="#Lab" class="px-4 py-2 text-white hover:text-gray-400">Lab</a>
+          </div>
+        </div>
+        <div class="flex sm:hidden">
+          <img class="w-6 sm:w-8 cursor-pointer" src="img/Dropdown.png" alt="Dropdown" onclick="toggleDropdown()" />
+          <div id="dropdownMenu" class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg hidden">
+            <a href="#Home" class="block px-4 py-2 text-black hover:bg-gray-200">Home</a>
+            <a href="#About" class="block px-4 py-2 text-black hover:bg-gray-200">About</a>
+            <a href="#Lab" class="block px-4 py-2 text-black hover:bg-gray-200">Lab</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="flex flex-col justify-center my-14 preahvihear-regular">
+        <div class="flex flex-col sm:items-center gap-10">
+          <div>
+            <div class="flex justify-end">
+              <figure>
+                <img src="/public/img/Vector.png" alt="Vector">
+              </figure>
+              <div class="text-purple-300 text-sm font-normal">
+                Hello! I am <span class="text-[#7127BA]">Ibrahim Memon</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center">
+            <div>
+              <figure>
+                <img src="/public/img/avatar.png" alt="avatar">
+              </figure>
+            </div>
+            <div>
+              <h1 class="text-base font-normal">A Designer who</h1>
+              <h2 class="text-4xl md:text-5xl font-normal">Judges a book by its <span
+                  class="text-[#7127BA]">cover</span>...</h2>
+              <p class="text-[11px] lg:text-sm mt-2">Because if the cover does not impress you what else can?</p>
+            </div>
+
+          </div>
+          <div class="flex flex-col gap-10 md:w-3/5">
+            <div>
+              <h3 class="text-4xl md:text-5xl font-normal">I'm a Software Engineer.</h3>
+              <p class="text-lg md:text-xl">Currently, I'm a Software Engineer at <span
+                  class="text-blue-500">@Facebook</span></p>
+            </div>
+            <div>
+              <p class="text-xl font-normal md:text-lg">
+                A self-taught UI/UX designer, functioning in the industry for 3+ years now. I make meaningful and
+                delightful digital products that create an equilibrium between user needs and business goals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <section class="flex flex-col justify-center my-14">
+        <div class="flex flex-col gap-6 items-center">
+          <div>
+            <h3 class="text-3xl text-left preahvihear-regular">Work Experience</h3>
+          </div>
+          <div class="grid place-items-center sm:grid-cols-2 justify-center gap-y-4">
+            <div class="flex gap-3 items-center justify-center">
+              <figure>
+                <img class="w-auto" src="img/star.png" alt="">
+              </figure>
+              <div class="space-y-2 w-1/2">
+                <h4 class="text-2xl poppins-semibold">CIB on the Mobile</h4>
+                <p class="text-[10px] poppins-medium">Take your client onboard seamlessly by our amazing
+                  tool of digital onboard process.
+                </p>
+                <button class="py-1 px-3 bg-[#2C1250] border border-[#693B93] rounded-lg text-[10px]">LEARN
+                  MORE</button>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center justify-center">
+              <figure>
+                <img class="w-auto" src="img/bulb.png" alt="">
+              </figure>
+              <div class="space-y-2 w-1/2">
+                <h4 class="text-2xl poppins-semibold">CIB on the Mobile</h4>
+                <p class="text-[10px] poppins-medium">Take your client onboard seamlessly by our amazing
+                  tool of digital onboard process.
+                </p>
+                <button class="py-1 px-3 bg-[#2C1250] border border-[#693B93] rounded-lg text-[10px]">LEARN
+                  MORE</button>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center justify-center">
+              <figure>
+                <img class="w-auto" src="img/cup.png" alt="">
+              </figure>
+              <div class="space-y-2 w-1/2">
+                <h4 class="text-2xl poppins-semibold">CIB on the Mobile</h4>
+                <p class="text-[10px] poppins-medium">Take your client onboard seamlessly by our amazing
+                  tool of digital onboard process.
+                </p>
+                <button class="py-1 px-3 bg-[#2C1250] border border-[#693B93] rounded-lg text-[10px]">LEARN
+                  MORE</button>
+              </div>
+            </div>
+            <div class="flex gap-3 items-center justify-center">
+              <figure>
+                <img class="w-auto" src="img/labitem.png" alt="">
+              </figure>
+              <div class="space-y-2 w-1/2">
+                <h4 class="text-2xl">CIB on the Mobile</h4>
+                <p class="text-[10px]">Take your client onboard seamlessly by our amazing
+                  tool of digital onboard process.
+                </p>
+                <button class="py-1 px-3 bg-[#2C1250] border border-[#693B93] rounded-lg text-[10px]">LEARN
+                  MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col justify-center items-center my-14 preahvihear-regular">
+        <div class="flex flex-col gap-6">
+          <div class="text-center">
+            <div class="text-2xl">
+              <p>I'm currently looking to join a <mark class="bg-transparent text-[#A362FF]">cross-functional</mark>
+                team</p>
+            </div>
+            <div class="text-base">
+              <p>that values improving people's lives through accessible design </p>
+            </div>
+          </div>
+          <div>
+            <figure>
+              <img class="w-auto" src="img/skills.png" alt="">
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col items-center gap-8 px-4 py-8">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-8 w-full max-w-5xl">
+          <div class="flex flex-col gap-4 lg:w-1/2">
+            <div>
+              <p class="text-purple-300 text-sm sm:text-base poppins-semibold">Featured Project</p>
+              <h5 class="text-2xl sm:text-3xl poppins-semibold text-white">Example Project</h5>
+            </div>
+            <div>
+              <p class="text-base sm:text-lg poppins-medium py-2 px-4 backdrop-blur-md bg-white/5 rounded-md">
+                A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played
+                tracks, and detailed audio information about each track. Create and save new playlists of recommended
+                tracks based on your existing playlists and more.
+              </p>
+            </div>
+            <div class="flex gap-2 justify-center lg:justify-start">
+              <img src="/public/img/icon.png" alt="" class="w-6 h-6">
+              <img src="/public/img/icon.png" alt="" class="w-6 h-6">
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:w-1/2 justify-center">
+            <img src="/public/img/ex1.png" alt="" class="rounded-lg">
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row-reverse justify-between items-center gap-8 w-full max-w-5xl">
+          <div class="flex flex-col gap-4 lg:w-1/2">
+            <div>
+              <p class="text-purple-300 text-sm sm:text-base poppins-semibold">Featured Project</p>
+              <h5 class="text-2xl sm:text-3xl poppins-semibold text-white">Example Project</h5>
+            </div>
+            <div>
+              <p class="text-base sm:text-lg poppins-medium py-2 px-4 backdrop-blur-md bg-white/5 rounded-md">
+                A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played
+                tracks, and detailed audio information about each track. Create and save new playlists of recommended
+                tracks based on your existing playlists and more.
+              </p>
+            </div>
+            <div class="flex gap-2 justify-center lg:justify-start">
+              <img src="/public/img/icon.png" alt="" class="w-6 h-6">
+              <img src="/public/img/icon.png" alt="" class="w-6 h-6">
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:w-1/2 justify-center">
+            <img src="/public/img/ex2.png" alt="" class="rounded-lg">
+          </div>
+        </div>
+      </section>
+      <footer>
+        <section class="flex flex-col justify-center items-center my-14 preahvihear-regular">
+          <div class="flex flex-col gap-5">
+            <div>
+              <h3 class="items-left text-2xl">Contact</h3>
+            </div>
+            <div class="text-sm">
+              <p>I'm currently looking to join a cross-functional team that values improving people's lives
+                through accessible design. or have a project in mind? Let's connect.
+                <br>
+                ibrhaimmemon930@gmail.com
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <a href="#insta">
+                <img src="img/instaicon.png" alt="">
+              </a>
+              <a href="#idk">
+                <img src="img/idkicon.png" alt="">
+              </a>
+              <a href="#google">
+                <img src="img/googleicon.png" alt="">
+              </a>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #13021b;
+  color: white;
+}
+.box1gadient {
+  background: hsla(265, 82%, 9%, 1);
+
+  background: linear-gradient(
+    20deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    20deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    20deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#130428", endColorstr="#251043", GradientType=1 );
+}
+.box2gadient {
+  background: hsla(265, 82%, 9%, 1);
+
+  background: linear-gradient(
+    80deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    80deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    80deg,
+    hsla(265, 82%, 9%, 1) 7%,
+    hsla(265, 61%, 16%, 1) 37%,
+    hsla(265, 72%, 25%, 1) 57%,
+    hsla(265, 62%, 17%, 1) 85%,
+    hsla(265, 79%, 11%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#130428", endColorstr="#251043", GradientType=1 );
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.preahvihear-regular {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
